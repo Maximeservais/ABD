@@ -14,12 +14,11 @@ object SparkIntegral {
     val areaLength = 9
     val rectangleLength = areaLength / rectangleNumber
     
-    val result = spark.sparkContext.parallelize(0 until rectangleNumber, slices).map { i =>
+    val result = sc.parallelize(0 until rectangleNumber, slices).map { i =>
       val rectangleHeight = 1 / (1 + i*rectangleLength)
-      val rectangleArea = rectangleHeight * rectangleLength
+      rectangleHeight * rectangleLength
     }.reduce(_ + _)
 
     println("Integral is roughly " + result)
-    spark.stop()
   }
 }
