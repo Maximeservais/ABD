@@ -1,11 +1,13 @@
-[0m[[0minfo[0m] [0mPackaging /home/janthe/Bureau/ABD/abd/target/scala-2.11/spark-integral_2.11-1.0.jar ...[0m
+[0m[[0minfo[0m] [0mPackaging /home/janthe/Bureau/ABD/abd/target/scala-2.11/simple-app_2.11-1.0.jar ...[0m
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
-[0m[[0mdebug[0m] [0m	SparkDigrams$$anonfun$2.class[0m
-[0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/SparkDigrams$$anonfun$2.class[0m
 [0m[[0mdebug[0m] [0m	SparkDigrams$.class[0m
 [0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/SparkDigrams$.class[0m
+[0m[[0mdebug[0m] [0m	SparkDigrams$$anonfun$main$1$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/SparkDigrams$$anonfun$main$1$$anonfun$2.class[0m
 [0m[[0mdebug[0m] [0m	SparkIntegral.class[0m
 [0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/SparkIntegral.class[0m
+[0m[[0mdebug[0m] [0m	SparkDigrams$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/SparkDigrams$$anonfun$main$1.class[0m
 [0m[[0mdebug[0m] [0m	SparkIntegral$.class[0m
 [0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/SparkIntegral$.class[0m
 [0m[[0mdebug[0m] [0m	example/Hello.class[0m
@@ -14,16 +16,24 @@
 [0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/example[0m
 [0m[[0mdebug[0m] [0m	example/Hello$delayedInit$body.class[0m
 [0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/example/Hello$delayedInit$body.class[0m
+[0m[[0mdebug[0m] [0m	SparkDigrams$$anonfun$main$1$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/SparkDigrams$$anonfun$main$1$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	SparkDigrams$$anonfun$main$1$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/SparkDigrams$$anonfun$main$1$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	SparkIntegral$$anonfun$main$1$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/SparkIntegral$$anonfun$main$1$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	example/Hello$.class[0m
 [0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/example/Hello$.class[0m
-[0m[[0mdebug[0m] [0m	SparkDigrams$$anonfun$1.class[0m
-[0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/SparkDigrams$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	SparkIntegral$$anonfun$main$1.class[0m
 [0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/SparkIntegral$$anonfun$main$1.class[0m
 [0m[[0mdebug[0m] [0m	SparkDigrams.class[0m
 [0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/SparkDigrams.class[0m
+[0m[[0mdebug[0m] [0m	SparkDigrams$$anonfun$main$1$$anonfun$3$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/SparkDigrams$$anonfun$main$1$$anonfun$3$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	SparkDigrams$$anonfun$main$1$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/SparkDigrams$$anonfun$main$1$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	SparkDigrams$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/SparkDigrams$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class[0m
 [0m[[0mdebug[0m] [0m	example/Greeting$class.class[0m
 [0m[[0mdebug[0m] [0m	  /home/janthe/Bureau/ABD/abd/target/scala-2.11/classes/example/Greeting$class.class[0m
 [0m[[0mdebug[0m] [0m	SparkIntegral$$anonfun$main$1$$anonfun$2.class[0m

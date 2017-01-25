@@ -6,7 +6,7 @@ object SparkIntegral {
 
   def main(args: Array[String]) {
   
-    val conf = new SparkConf().setAppName("Simple Application")
+    val conf = new SparkConf().setAppName("Integral Application")
     val sc = new SparkContext(conf)
     
     val rectangleNumber = if (args.length > 0) args(0).toFloat else 9

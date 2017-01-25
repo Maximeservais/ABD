@@ -6,20 +6,18 @@ object SparkDigrams {
 
   def main(args: Array[String]) {
   
-    val conf = new SparkConf().setAppName("Digrams")
+    val conf = new SparkConf().setAppName("Digrams Application")
     val sc = new SparkContext(conf)
-    
-    val rectangleNumber = if (args.length > 0) args(0).toInt else 9
-    val slices = if (args.length > 0) args(1).toInt else 2
-    val areaLength = 9
-    val rectangleLength = areaLength / rectangleNumber
-
-    
-      val result = sc.parallelize(0 until rectangleNumber, slices).map { i =>
-        val rectangleHeight = 1 / (1 + i*rectangleLength)
-        rectangleHeight * rectangleLength
-      }.reduce(_ + _)
       
+    var start = System.currentTimeMillis();
+    for( j <- 1 to 10) {
+      val textFile = sc.textFile("Miserables.txt")
+      val digram = textFile.map(line => line.trim.split(" ")).flatMap(wordList => wordList.sliding(2).map{case Array(x, y) => ((x,y), 1)}).reduceByKey(_+_).sortBy(_._2).collect()
+      digram.foreach(x => println(x))
+    }
+    var end = System.currentTimeMillis();
+    var tempsMoy = (end-start)/10
     
+    println("Temps moyen de calcul : " + tempsMoy)
   }
 }
