@@ -19,7 +19,7 @@ object SparkIntegral {
       val result = sc.parallelize(0 until rectangleNumber.toInt, slices).map { i =>
         rectangleLength.toFloat / (1 + i.toFloat*rectangleLength.toFloat)
       }.reduce(_ + _)
-      //println("Result : " + result)
+      println("Result : " + result)
     }
     var end = System.currentTimeMillis();
     var tempsMoy = (end-start)/10
