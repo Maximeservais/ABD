@@ -1,4 +1,4 @@
-name := "Sapark Integral"
+name := "Spark Integral"
 
 version := "1.0"
 
